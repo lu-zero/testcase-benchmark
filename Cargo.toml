@@ -1,0 +1,12 @@
+[package]
+name = "testcase-benchmark"
+version = "0.1.0"
+authors = ["Luca Barbato <lu_zero@gentoo.org>"]
+edition = "2018"
+
+[dependencies]
+
+
+[[bench]]
+name = "bench"
+harness = false
